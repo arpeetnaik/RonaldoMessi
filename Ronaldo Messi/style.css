@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-family: "Copperplate", fantasy;
+    color: white
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+.paragraph-container{
+    text-align: center;
+    display: flex;
+    color: white
+}
+
+.paragraph-container p{
+    flex: 1;
+    margin: 10px;
+    font-family: "Monaco", monospace;
+}
+
+.link-container{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    margin-top:-20px;
+}
+
+img {
+    max-width: 500px;
+    margin: 10px;
+}
+
+.ronaldo-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid red;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+.messi-button {
+    background-color: lightblue;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid yellow;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.email-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid blue;
+    border-radius: 500px;
+    font-size: 16px;
+    cursor: pointer;
+}

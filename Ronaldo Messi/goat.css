@@ -1,0 +1,36 @@
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: "Copperplate", fantasy;
+    color: black
+}
+
+@keyframes colorShift {
+    0% { background-color: lightblue; }
+    25% { background-color: yellow; }
+    50% { background-color: lightgreen; }
+    75% { background-color: lightcoral; }
+    100% { background-color: white; }
+  }
+
+body {
+ animation: colorShift 10s linear infinite;
+}
+
+.email-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid blue;
+    border-radius: 500px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.link-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
